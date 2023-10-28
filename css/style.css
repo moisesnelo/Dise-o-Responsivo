@@ -1,0 +1,43 @@
+
+.h1{
+    display: flex;
+     justify-content: center; 
+     margin-top: 50px; 
+}
+
+.col {
+text-align: justify;
+background-color: rgba(145, 145, 145, 0.503);
+}
+
+@media (max-width: 720px) {
+
+    figure {
+        display: none;
+    }
+
+    #opcionBig {
+        display: none;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .texto {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 720px) {
+
+    #Opcion {
+        display: none;
+        margin: 0%;
+    }
+
+}
+
+
+
+
